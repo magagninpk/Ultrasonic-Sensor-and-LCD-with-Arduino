@@ -23,7 +23,7 @@ void loop() {
  digitalWrite(trig, HIGH);
  delayMicroseconds(10);
  digitalWrite(trig, LOW);
- tempo = pulseIn(echo, HIGH);
+ time = pulseIn(echo, HIGH);
  distance_cm = time / 29.4 / 2;
  distance_in = time / 74.7 / 2;
  //result in display
